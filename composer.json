@@ -1,0 +1,17 @@
+{
+    "name": "mateus/my_framework_mvc_php",
+    "description": "first framework for advance code in php",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mateus-IC1101",
+            "email": "mateus.dolglas6@gmail.com"
+        }
+    ],
+    "require": {}
+}
