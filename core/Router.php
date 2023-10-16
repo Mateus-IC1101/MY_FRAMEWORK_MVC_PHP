@@ -1,10 +1,12 @@
 <?php
 
 namespace app\core;
-
 class Router{
 
-    public function __construct() {
-        var_dump('oi 2');
+    static public $routes = [];
+
+    static public function get(string $path, callable $callable){
+        self::$routes['GET'][$path] = $callable;
     }
+
 }
