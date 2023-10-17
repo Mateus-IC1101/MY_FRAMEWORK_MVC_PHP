@@ -9,4 +9,8 @@ class Router{
         self::$routes['GET'][$path] = $callable;
     }
 
+    static public function routes(){
+        return self::$routes;
+    }
+
 }
